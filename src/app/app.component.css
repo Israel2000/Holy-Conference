@@ -39,7 +39,8 @@ h2 {
 }
 
 p {
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: 1rem;
 }
 
 button {
@@ -51,8 +52,34 @@ button:hover {
     color: #000;
 }
 
+.bg-warning {
+    background-color: #ffffac!important;
+    border: none !important;
+}
 
+.bg-primary {
+    background-color: #afcdf9 !important;
+    border: none !important;
+}
 
+.bg-danger {
+    background-color: #f7c1c7 !important;
+    border: none !important;
+}
+
+#img1-insert {
+    background-image: url(/assets/icons8-upload-to-cloud-30.png)!important;
+    background-repeat: no-repeat;
+}
+#img-insert2 {
+    background-image: url(/assets/icons8-review-66.png) !important;
+    background-repeat: no-repeat;
+    
+}
+#img-insert3 {
+    background-image: url(/assets/icons8-theatre-stage-50.png) !important;
+    background-repeat: no-repeat;
+}
 
 /* Extra small devices (phones, 425px and down) */
 @media only screen and (max-width: 425px) {
