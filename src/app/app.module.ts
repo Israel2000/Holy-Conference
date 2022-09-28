@@ -6,20 +6,23 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { SvgComponent } from './svg/svg.component';
 import { VTimelineComponent } from './v-timeline/v-timeline.component';
-import { AboutContactComponent } from './about-contact/about-contact.component';
-
 import {CalendarModule} from 'primeng/calendar';
 import { AppRoutingModule } from './app-routing.module';
+import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SvgComponent,
     VTimelineComponent,
-    AboutContactComponent,
+    ContactComponent,
+    AboutComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule, BrowserAnimationsModule, FormsModule, CalendarModule, AppRoutingModule
+    BrowserModule, BrowserAnimationsModule, FormsModule, AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
