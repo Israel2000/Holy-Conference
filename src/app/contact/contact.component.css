@@ -21,3 +21,10 @@ textarea {
     font-size: 14px;
     color: rgb(182, 182, 182);
 }
+.contact-box {
+    background-color: red;
+}
+
+.left-bg,.right-bg {
+background-color: #e9edef;
+}
